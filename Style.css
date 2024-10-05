@@ -1,0 +1,65 @@
+h1,h2,h3{
+    font-family:cursive; 
+  }
+
+img{
+    border-radius: 50%;
+}
+
+.Intro{
+    background-color:azure;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.intromyname,.intromytitle,.introtopimage,.introbottomimage{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.Expertise{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+   
+}
+p{  
+    width: 10%;
+}
+
+
+.Myskills{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.Contact{
+    display: flex;
+    justify-content: center;
+    background-color: azure;
+    padding: 50px;
+}
+
+
+
+.Skills{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    height: 300px;
+
+}
+
+.skilldes{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+
+
+
